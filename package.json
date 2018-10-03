@@ -4,8 +4,11 @@
   "description": "SaibAhmed Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Saib",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
 }
