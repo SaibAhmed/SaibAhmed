@@ -81,7 +81,7 @@
         transform: translate3d(0,100%,0);
         @include easeout;
 
-        &.show{
+         &.show{
             //slide in from bottm
             transform: translate3d(0,0,0);
         }
@@ -94,9 +94,8 @@
             border: solid 5px $secondary-color;
         }
 
-
     }
-
+        
     .nav-item{
         transform: translate3d(600px,0,0);
         @include easeout;
