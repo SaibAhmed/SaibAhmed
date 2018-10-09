@@ -11,6 +11,20 @@ $background-opacity:0.9;
     transition: all .5s ease-out;
 }
 
+//set text color function
+@function set-text-color($color){
+@if (lightness($color)>40) {
+    @return #000;
+
+}@else{
+    @return #fff;
+}
+}
+
+
+
+
+
 //Media Query mixin
 @mixin mediaSm {
     @media screen and (max-width: 500px){
