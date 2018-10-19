@@ -1,11 +1,23 @@
 //WideScreen
 @include mediaXl{
+    .web-projects{
+    grid-template-columns: repeat(4,1fr);
+    }
 
+    .android-projects{
+    grid-template-columns: repeat(4,1fr);
+    }
 }
 
 //desktops
 @include mediaLg{
+    .web-projects{
+        grid-template-columns: repeat(3,1fr);
+    }
 
+    .android-projects{
+        grid-template-columns: repeat(3,1fr);
+        }
 }
 
 //tablets & small laptops
@@ -60,6 +72,14 @@ main{
      grid-template-columns:1fr;
  }
 
+ .web-projects{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.android-projects{
+    grid-template-columns: repeat(2,1fr);
+    }
+
 
 }
 
@@ -70,6 +90,14 @@ main{
     main#home h1{
         margin-top: 10vh;
     }
+
+    .web-projects{
+        grid-template-columns: 1fr;
+    }
+
+    .android-projects{
+        grid-template-columns: 1fr;
+        }
 }
 
 
