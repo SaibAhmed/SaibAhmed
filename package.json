@@ -4,7 +4,7 @@
   "description": "SaibAhmed Portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "sudo node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Saib",
   "license": "ISC",
